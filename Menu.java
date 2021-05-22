@@ -5,7 +5,7 @@ public class Menu{
 
 	public static void main(String[] args){
 	
-		JFrame frame = new JFrame(" ");
+		JFrame frame = new JFrame("window");
 		frame.setSize(500, 500);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
@@ -16,8 +16,7 @@ public class Menu{
 			}		
 		});	
 
-    JFrame f = new JFrame("Example button");
-    J
+    // JButton b = new JButton
 
 		frame.getContentPane().add(button);
 		frame.setLocationRelativeTo(null);
